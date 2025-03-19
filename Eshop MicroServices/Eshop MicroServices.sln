@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{59C13ACA-ACCD-4142-BEF2-2913C22BD7BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{E42C30C2-1D82-48E9-AE11-0BD2BF593D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{3FDF9D7B-739A-4ED7-AE43-4B4360441F51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{F6DB9D84-F7ED-4D53-BF36-2A5337EC555F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{483ACDE9-8D43-4D18-90EF-4EAEA1C93FF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{020027D4-EB7E-48AB-A078-2D4BF81B6160}"
+	ProjectSection(SolutionItems) = preProject
+		EShopMicroservices.postman_collection.json = EShopMicroservices.postman_collection.json
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4908AB8D-16F5-458E-BA5B-1546DEEBBE94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{07B669D1-D62A-4B47-BAEC-90816E3A0FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{1885C3A8-7E6E-4340-9447-D335434B7F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FDF9D7B-739A-4ED7-AE43-4B4360441F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDF9D7B-739A-4ED7-AE43-4B4360441F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDF9D7B-739A-4ED7-AE43-4B4360441F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDF9D7B-739A-4ED7-AE43-4B4360441F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483ACDE9-8D43-4D18-90EF-4EAEA1C93FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483ACDE9-8D43-4D18-90EF-4EAEA1C93FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483ACDE9-8D43-4D18-90EF-4EAEA1C93FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483ACDE9-8D43-4D18-90EF-4EAEA1C93FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4908AB8D-16F5-458E-BA5B-1546DEEBBE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4908AB8D-16F5-458E-BA5B-1546DEEBBE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4908AB8D-16F5-458E-BA5B-1546DEEBBE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4908AB8D-16F5-458E-BA5B-1546DEEBBE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1885C3A8-7E6E-4340-9447-D335434B7F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1885C3A8-7E6E-4340-9447-D335434B7F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1885C3A8-7E6E-4340-9447-D335434B7F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1885C3A8-7E6E-4340-9447-D335434B7F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E42C30C2-1D82-48E9-AE11-0BD2BF593D68} = {59C13ACA-ACCD-4142-BEF2-2913C22BD7BA}
+		{3FDF9D7B-739A-4ED7-AE43-4B4360441F51} = {E42C30C2-1D82-48E9-AE11-0BD2BF593D68}
+		{483ACDE9-8D43-4D18-90EF-4EAEA1C93FF3} = {F6DB9D84-F7ED-4D53-BF36-2A5337EC555F}
+		{07B669D1-D62A-4B47-BAEC-90816E3A0FB3} = {59C13ACA-ACCD-4142-BEF2-2913C22BD7BA}
+		{1885C3A8-7E6E-4340-9447-D335434B7F00} = {07B669D1-D62A-4B47-BAEC-90816E3A0FB3}
+	EndGlobalSection
+EndGlobal
